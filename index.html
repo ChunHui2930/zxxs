@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div class="bg">
+        <!--页首-->
+        <div class="nav pt">
+            <a href="../CH/index.html"><img src="img/1.png"alt=""></a>
+            <div class="nav-ptn pt">
+                <div class="erweima">
+                    <img src="img/erweima.png" alt="" >
+                    <p>扫一扫下载游戏</p>
+                </div>
+                <div class="xiazai">
+                    <a href="#"><img src="img/ios_btn.jpg" alt=""></a>
+                    <a href="#"><img src="img/android_btn.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-right">
+            <i class="link"></i>
+            <a href="javascript:" ><span>1</span>玩法</a>
+            <i class="link"></i>
+            <a href="javascript:"><span>2</span>职业</a>
+            <i class="link"></i>
+            <a href="javascript:"><span>3</span>资料</a>
+            <i class="link"></i>
+            <a href="javascript:"><span>4</span>变美</a>
+            <i class="link"></i>
+            <a href="javascript:"><span>5</span>礼包</a>
+            <i class="link"></i>
+        </div>
+        <!--初见诛仙-->
+        <div class="main1 pt" id="main1">
+            <h3><img src="img/tit1.png" alt=""></h3>
+            <!--轮播图-->
+            <div class="content1 pt" id="banner">
+            <ul class="luobo clearfix" id="list">
+                <li><img src="img/ts02.jpg" alt=""></li>
+                <li><img src="img/ts03.jpg" alt=""></li>
+                <li><img src="img/ts04.jpg" alt=""></li>
+                <li><img src="img/ts05.jpg" alt=""></li>
+                <li><img src="img/ts02.jpg" alt=""></li>
+            </ul>
+            </div>
+            <!--轮播圆点-->
+            <div class="btn" id="btn">
+                <span class="current"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!--轮播左右按钮-->
+            <div class="btn-left" id="btn_left">
+                <img src="img/next_l.png" alt="">
+            </div>
+            <div class="btn-right" id="btn_right">
+                <img src="img/next_r.png" alt="">
+            </div>
+        </div>
+        <!--职业选择-->
+        <div class="main2" id="main2">
+            <h3><img src="img/tit2.png" alt=""></h3>
+            <div class="job_cont pt" id="job_cont">
+            <div class="hd" id="hd">
+            <ul class="clearfix">
+                <li class="lione">云梦</li>
+                <li>焚香</li>
+                <li>青云</li>
+                <li>天音</li>
+                <li>鬼王</li>
+                <li>合欢</li>
+            </ul>
+            </div>
+            <div class="bd pt clearfix" id="bd">
+                <ul>
+                    <li style=" background:url(img/role_yunmeng.jpg) no-repeat center top;">
+                        <div class="shuoming">
+                        <div class="JS1">
+                            <h3>职业介绍</h3>
+                            <p>云梦拥有独特的隐身能力、回血和控制技能，技能多为瞬发，机动性强。</p>
+                        </div>
+                        <div class="JS2 clearfix">
+                                <h3>终极绝技</h3>
+                                <div class="logo_1">
+                                    <img src="img/ymz_ic1.png" alt="">
+                                    <p>云梦深处</p>
+                                </div>
+                                <div class="logo_2">
+                                    <img src="img/ymz_ic2.png" alt="">
+                                    <p>昆山玉碎</p>
+                                </div>
+                                <div class="logo_3">
+                                    <img src="img/ymz_ic3.png" alt="">
+                                    <p>春风化雨</p>
+                                </div>
+                            </div>
+                        <div class="JS3">
+                            <h3>职业攻略</h3>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">全新职业 云梦技能大解析！</a></p><i>07/31</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">不玩焚香也要知道的那些事！1900W焚香大佬攻略分享~</a></p><i>06/21</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">2000W青云攻略！青云细节&打法指导！</a></p><i>06/16</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">V9 1831W合欢经验分享！全方位合欢指导！</a></p><i>06/14</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】一个纯肉奶天音的飞升140噩梦镇魔之路</a></p><i>05/27</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】是时候表演真正的技术了！天音破凶心得！</a></p><i>05/24</i>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:none; background:url(img/role_fenxiang.jpg) no-repeat center top;">
+                        <div class="shuoming">
+                        <div class="JS1">
+                            <h3>职业介绍</h3>
+                            <p>焚香拥有独特的控制能力和强力状态增益，技能组合多样，策略性强。</p>
+                        </div>
+                        <div class="JS2 clearfix">
+                            <h3>终极绝技</h3>
+                            <div class="logo_1">
+                                <img src="img/fx_ic1.png" alt="">
+                                <p>南巫天火</p>
+                            </div>
+                            <div class="logo_2">
+                                <img src="img/fx_ic2.png" alt="">
+                                <p>焚香玉册</p>
+                            </div>
+                            <div class="logo_3">
+                                <img src="img/fx_ic3.png" alt="">
+                                <p>八凶玄火</p>
+                            </div>
+                        </div>
+                        <div class="JS3">
+                            <h3>职业攻略</h3>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">全新职业 云梦技能大解析！</a></p><i>07/31</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">不玩焚香也要知道的那些事！1900W焚香大佬攻略分享~</a></p><i>06/21</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">2000W青云攻略！青云细节&打法指导！</a></p><i>06/16</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">V9 1831W合欢经验分享！全方位合欢指导！</a></p><i>06/14</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】一个纯肉奶天音的飞升140噩梦镇魔之路</a></p><i>05/27</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】是时候表演真正的技术了！天音破凶心得！</a></p><i>05/24</i>
+                        </div>
+                        </div>
+                    </li>
+                    <li style="display:none; background:url(img/role_qingyun.jpg) no-repeat center top;">
+                        <div class="shuoming">
+                        <div class="JS1">
+                            <h3>职业介绍</h3>
+                            <p>修炼太极玄清道的青云，以斩妖除魔为己任。
+                                青云属于法术输出，注重人剑合一。
+                                剑引煌煌天威，斩敌于千里之外</p>
+                        </div>
+                        <div class="JS2 clearfix">
+                            <h3>终极绝技</h3>
+                            <div class="logo_1">
+                                <img src="img/qy_ic1.png" alt="">
+                                <p>七劫斩龙决</p>
+                            </div>
+                            <div class="logo_2">
+                                <img src="img/qy_ic2.png" alt="">
+                                <p>绝圣弃智</p>
+                            </div>
+                            <div class="logo_3">
+                                <img src="img/qy_ic3.png" alt="">
+                                <p>神剑御雷真诀</p>
+                            </div>
+                        </div>
+                        <div class="JS3">
+                            <h3>职业攻略</h3>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">全新职业 云梦技能大解析！</a></p><i>07/31</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">不玩焚香也要知道的那些事！1900W焚香大佬攻略分享~</a></p><i>06/21</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">2000W青云攻略！青云细节&打法指导！</a></p><i>06/16</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">V9 1831W合欢经验分享！全方位合欢指导！</a></p><i>06/14</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】一个纯肉奶天音的飞升140噩梦镇魔之路</a></p><i>05/27</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】是时候表演真正的技术了！天音破凶心得！</a></p><i>05/24</i>
+                        </div>
+                        </div>
+                    </li>
+                    <li style="display:none; background:url(img/role_tianyin.jpg) no-repeat center top;">
+                        <div class="shuoming">
+                        <div class="JS1">
+                            <h3>职业介绍</h3>
+                            <p>修炼大梵般若的天音，慈悲为怀，气质似已超然世外。
+                                天音技能多为法术系治疗，以防守见长。
+                                招式如佛光普照，可以救济世人，恢复气血。</p>
+                        </div>
+                        <div class="JS2 clearfix">
+                            <h3>终极绝技</h3>
+                            <div class="logo_1">
+                                <img src="img/ty_ic1.png" alt="">
+                                <p>大梵般若</p>
+                            </div>
+                            <div class="logo_2">
+                                <img src="img/ty_ic2.png" alt="">
+                                <p>无量真言</p>
+                            </div>
+                            <div class="logo_3">
+                                <img src="img/ty_ic3.png" alt="">
+                                <p>万象生佛</p>
+                            </div>
+                        </div>
+                        <div class="JS3">
+                            <h3>职业攻略</h3>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">全新职业 云梦技能大解析！</a></p><i>07/31</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">不玩焚香也要知道的那些事！1900W焚香大佬攻略分享~</a></p><i>06/21</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">2000W青云攻略！青云细节&打法指导！</a></p><i>06/16</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">V9 1831W合欢经验分享！全方位合欢指导！</a></p><i>06/14</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】一个纯肉奶天音的飞升140噩梦镇魔之路</a></p><i>05/27</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】是时候表演真正的技术了！天音破凶心得！</a></p><i>05/24</i>
+                        </div>
+                        </div>
+                    </li>
+                    <li style="display:none; background:url(img/role_guiwang.jpg) no-repeat center top;">
+                        <div class="shuoming">
+                        <div class="JS1">
+                            <h3>职业介绍</h3>
+                            <p>暗藏修罗之力的鬼王，一柄大刀似能横扫天下。
+                                鬼王属于坦克型职业，同时具备击晕目标的控制技能，
+                                出招可谓刀如燃烈焰，所向披靡。</p>
+                        </div>
+                        <div class="JS2 clearfix">
+                            <h3>终极绝技</h3>
+                            <div class="logo_1">
+                                <img src="img/gw_ic1.png" alt="">
+                                <p>未名斩</p>
+                            </div>
+                            <div class="logo_2">
+                                <img src="img/gw_ic2.png" alt="">
+                                <p>明王降世</p>
+                            </div>
+                            <div class="logo_3">
+                                <img src="img/gw_ic3.png" alt="">
+                                <p>毁天灭地</p>
+                            </div>
+                        </div>
+                        <div class="JS3">
+                            <h3>职业攻略</h3>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">全新职业 云梦技能大解析！</a></p><i>07/31</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">不玩焚香也要知道的那些事！1900W焚香大佬攻略分享~</a></p><i>06/21</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">2000W青云攻略！青云细节&打法指导！</a></p><i>06/16</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">V9 1831W合欢经验分享！全方位合欢指导！</a></p><i>06/14</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】一个纯肉奶天音的飞升140噩梦镇魔之路</a></p><i>05/27</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】是时候表演真正的技术了！天音破凶心得！</a></p><i>05/24</i>
+                        </div>
+                        </div>
+                    </li>
+                    <li style="display:none; background:url(img/role_hehuan.jpg) no-repeat center top;">
+                        <div class="shuoming">
+                        <div class="JS1">
+                            <h3>职业介绍</h3>
+                            <p>神秘莫测的合欢，紫袂翩然，魅惑众生。
+                                合欢属于物理系输出，同时也有魅惑敌人的控制技能。
+                                功法迅速快捷，诡异多端，擅长在无形之中取人性命。</p>
+                        </div>
+                        <div class="JS2 clearfix">
+                            <h3>终极绝技</h3>
+                            <div class="logo_1">
+                                <img src="img/hh_ic1.png" alt="">
+                                <p>怜影</p>
+                            </div>
+                            <div class="logo_2">
+                                <img src="img/hh_ic2.png" alt="">
+                                <p>缠绵</p>
+                            </div>
+                            <div class="logo_3">
+                                <img src="img/hh_ic3.png" alt="">
+                                <p>风花雪月</p>
+                            </div>
+                        </div>
+                        <div class="JS3">
+                            <h3>职业攻略</h3>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">全新职业 云梦技能大解析！</a></p><i>07/31</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">不玩焚香也要知道的那些事！1900W焚香大佬攻略分享~</a></p><i>06/21</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">2000W青云攻略！青云细节&打法指导！</a></p><i>06/16</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">V9 1831W合欢经验分享！全方位合欢指导！</a></p><i>06/14</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】一个纯肉奶天音的飞升140噩梦镇魔之路</a></p><i>05/27</i>
+                            <p><a href="#">[职业攻略]</a>&nbsp;<a href="">【天音攻略】是时候表演真正的技术了！天音破凶心得！</a></p><i>05/24</i>
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <!--我要变强-->
+        <div class="main3" id="main3">
+            <h3><img src="img/tit3.png" alt=""></h3>
+            <div class="main3_cont">
+                <div class="tab_tit" id="main3_nav">
+                    <a href="#">升级</a>
+                    <a href="#">炼器</a>
+                    <a href="#">灌注</a>
+                    <a href="#">宝石</a>
+                    <a href="#">法宝</a>
+                    <a href="#">阵灵</a>
+                    <a href="#">星魂</a>
+                    <a href="#">装备洗练</a>
+                    <a href="#">更多攻略</a>
+                </div>
+                <!--我要变强的切换内容-->
+                <div class="tab_cont clearfix" style="display:block;">
+                    <ul>
+                        <li>
+                            <h3>主线任务</h3>
+                            <p>主线任务会指引玩家以当前职业身份重温诛仙剧情，在此感受经典情怀。在体验主线剧情任务的过程中，会给予玩家大量经验奖励。</p>
+                            <img src="img/img1.jpg" alt=""></li>
+                        <li>
+                            <h3>副本一条龙</h3>
+                            <p>等级大于90级的仙友可在组队平台选择“一条龙”进行组队，加入的队友在进入副本时无需点确认。 一条龙包括：草庙疑云2次、死灵之渊2次、幻月秘境2次、妖兽突袭20次。</p>
+                            <img src="img/122.jpg" alt=""></li>
+                        <li>
+                            <h3>环线任务</h3>
+                            <p>环线任务全天均可参与，每天可获取20次经验奖励。玩家会随机接取到杀怪、寻人、采集物品、收集物品等4种类型任务，完成后将自动接取下一个任务。</p>
+                            <img src="img/img3.jpg" alt=""></li>
+                        <li>
+                            <h3>彻夜不眠</h3>
+                            <p>彻夜不眠是通过挂机获得经验的开放式任务。玩家通过组队挂机杀怪获得经验，同时为了提倡健康游戏，野外刷怪获得的经验有一个上限。随着击杀野怪数量的增加，获取经验的效率逐渐衰减，杀怪进度达到最大值后，将不再获得经验增长。</p>
+                            <img src="img/img4.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="tab_cont clearfix">
+                    <ul>
+                        <li>
+                            <h3>炼器玩法</h3>
+                            <p>玩家可以通过炼器提高装备的炼器等级，从而大幅度的提升装备的基础属性，在到达特殊的炼器等级时，还可以解锁装备的附加属性以及特殊光效。炼器属于高风险高收益的玩法，成功后道法提升明显，失败后损失同样较大。</p>
+                            <img src="img/img5.jpg" alt=""></li>
+                        <li>
+                            <h3>属性变化</h3>
+                            <p>每次炼器成功，可以使装备的基础属性按一定比例提高，并且在固定的炼器等级下，炼器8级和15级分别解锁两条附加属性。</p>
+                            <img src="img/img6.jpg" alt=""></li>
+                        <li>
+                            <h3>外观变化</h3>
+                            <p>当武器类装备的炼器等级到达2级、9级和15级时，会触发装备的外观变化，如下图所示：</p>
+                            <img src="img/img3.jpg" alt=""></li>
+                        <li>
+                            <h3>炼器详解</h3>
+                            <p>炼器详解：<a href="#">http://zx.wanmei.com/info/20160725/184797.shtml</a></p>
+                           </li>
+                    </ul>
+                </div>
+                <div class="tab_cont clearfix">
+                    <ul>
+                        <li>
+                            <h3>玩法入口</h3>
+                            <p>玩家可以在主菜单的强化功能图标打开界面，第二个分页即为灌注功能分页。</p>
+                            <img src="img/g1.jpg" alt=""></li>
+                        <li>
+                            <h3>玩法规则</h3>
+                            <p>可对武器、衣服、帽子、手套、裤子、鞋子、戒指、项链、玉佩、护符共计10件装备进行灌注； 灌注失败不会降低装备的灌注等级； 每件装备的最高灌注等级都为100级，至多可以灌注3条不同属性。</p>
+                            <img src="img/g2.jpg." alt=""></li>
+                        <li>
+                            <h3>龙鳞铁玉</h3>
+                            <p>灌注祝福道具，使当次灌注必定成功。可在每周二的炼血堂逆袭活动中获得。</p>
+                            <img src="img/g3.jpg" alt=""></li>
+                        <li>
+                            <h3>灌注符</h3>
+                            <p>灌注符分为以下10种属性，3种品质，分别为普通、极品和神品，品质越高的灌注符，单次灌注成功可以提升的灌注等级越高。</p>
+                            <img src="img/g4.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="tab_cont clearfix">
+                    <ul>
+                        <li>
+                            <h3>玩法介绍</h3>
+                            <p>可通过点击角色头像，选择强化-宝石，打开宝石合成、镶嵌界面；武器、护手、鞋子、戒指、项链，可以镶嵌攻击类的宝石；帽子、衣服、裤子、护符、玉佩，可以镶嵌防御类的宝石。</p>
+                            <img src="img/b1.jpg" alt=""></li>
+                        <li>
+                            <h3>宝石升级与摘除</h3>
+                            <p>点击宝石界面“升级”按钮，可升级已经镶嵌的宝石；每3颗宝石可以通过八卦炉合成1颗高一级的宝石； 点击宝石界面“摘除”，可将宝石摘除，若宝石有等级刻度，则零碎宝石直接进入宝石包裹。</p>
+                            <img src="img/b2.jpg" alt=""></li>
+                        <li>
+                            <h3>宝石铭刻</h3>
+                            <p>消耗道具“铭刻玉”可对宝石槽位进行升级，铭刻玉”可通过兽神之叹活动、限购商店以及日进斗金中获得； 完美属性的激活需铭刻等级与宝石等级一致，但完美属性数值会随等级刻度的提高而提高。</p>
+                            <img src="img/b3.jpg" alt=""></li>
+                        <li>
+                            <h3>宝石包裹</h3>
+                            <p>点击强化-宝石界面，进入“宝石包裹”进界面；宝石包裹分为攻击类和防御类，且不同的宝石类型对应不同的宝石包裹；可“放入”或“提取”不同种类的宝石，减轻人物背包负担。</p>
+                            <img src="img/b4.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="tab_cont clearfix">
+                    <ul>
+                        <li>
+                            <h3>法宝收集</h3>
+                            <p>法宝是角色的一件装备，具备增加人物道法的基础属性，同时能激活法宝自带技能； 法宝可以收集，每种法宝第一次装备时，都会激活玩家的收集属性，可以永久增加角色道法。</p>
+                            <img src="img/f1.jpg" alt=""></li>
+                        <li>
+                            <h3>法宝传承</h3>
+                            <p>当需要更换装备的法宝时，可通过消耗道具“金梵法器”将原法宝的属性转移至新法宝； 传承后，原法宝的聚气、灌魔、血炼属性转移至新法宝，原法宝仍然保留，但其灌魔属性清空、血炼属性重置。</p>
+                            <img src="img/f2.jpg" alt=""></li>
+                        <li>
+                            <h3>法宝血炼、聚气、灌魔</h3>
+                            <p>每个法宝有3个血炼属性，可通过点击“洗炼”刷新血炼属性，相同血炼属性的法宝，可点击“血炼”将其属性融合；所有法宝在获得时都是1级，玩家可通过聚气操作吸收其他装备或物华天宝道具，对当前法宝提升经验；可消耗真魂赦令在法宝-灌魔中改变当前装备法宝的灌魔效果。</p>
+                            <img src="img/f3.jpg" alt=""></li>
+                        <li>
+                            <h3>法宝精进</h3>
+                            <p>所有已经激活的法宝可消耗道具“日月精华”进行升级操作，升级后属性会有所提升；阴阳相生操作可以随机改变法宝所有五行精魄的阴阳类型；根据法宝的至阴/至阳等级会激活对应的额外附加属性。</p>
+                            <img src="img/f4.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="tab_cont clearfix">
+                    <ul>
+                        <li>
+                            <h3>阵灵玩法</h3>
+                            <p>玩家可以通过收集阵灵激活阵法，获得大幅道法提升。阵灵可通过阵灵碎片提升品阶，品阶提升将提升阵灵的加成效果。属性被动加成给角色，与上阵与否无关。</p>
+                            <img src="img/img11.jpg" alt=""></li>
+                        <li>
+                            <h3>阵灵情缘</h3>
+                            <p>当多个有情缘的阵灵同时出现在一个阵法中，可激活情缘属性。情缘属性将对角色进行额外加成。情缘属性不受阵灵本身的品阶影响，只有上阵同一阵法的阵灵，才可激活情缘效果。</p>
+                            <img src="img/img12.jpg" alt=""></li>
+                        <li>
+                            <h3>阵法激活</h3>
+                            <p>阵法能够额外提供角色属性，提供大量道法加成。每个阵灵可通过炼灵额外获得1~3条属性及随机1~3条情缘，阵法属性激活与否根据上阵阵灵的最低品阶决定。</p>
+                            <img src="img/img13.jpg" alt=""></li>
+                        <li>
+                            <h3>阵灵攻略</h3>
+                            <p>策略战斗 出奇制胜 《诛仙手游》阵灵系统玩法攻略：<a href="#">http://zx.wanmei.com/mobile/mobilenews/newscon/20160902/186357.shtml</a><br>四版本阵灵搭配推荐！：<a href="#">http://zx.wanmei.com/mobile/startegy/xq_slg/20161014/187613.shtml</a><br>那些雪琪的情缘们，四攻击阵全5星炼灵！：<a href="#">http://zx.wanmei.com/mobile/startegy/xq_slg/20161011/187419.shtml</a><br>小白、三妙夫人阵灵搭配 新阵灵数据提前知晓：<a href="#">http://zx.wanmei.com/mobile/startegy/xq_slg/20160923/187071.shtml</a></p>
+                            </li>
+                    </ul>
+                </div>
+                <div class="tab_cont clearfix">
+                    <ul>
+                        <li>
+                            <h3>玩法介绍</h3>
+                            <p>星魂系统70级开启墨蓝图，138级开启酱紫图，默认解锁墨蓝图，装备星魂可提升角色属性和道法； 点击头像-人物-星魂，进入到星魂系统界面。</p>
+                            <img src="img/x1.jpg" alt=""></li>
+                        <li>
+                            <h3>星图介绍</h3>
+                            <p>星魂图由墨蓝图和绛紫图组成，每张图中的星魂均分布在绿、紫、橙三个区域； 墨蓝图中的孔位，当升级到10级后，即可解锁下一个星魂位。每孔满级20级； 酱紫图需墨蓝图的9个孔位的星魂均达到10级后才会开启，每孔满级17级。</p>
+                            <img src="img/x2.jpg" alt=""></li>
+                        <li>
+                            <h3>星魂升级与拆解</h3>
+                            <p>消耗同方位的星尘对星魂进行升级；拆解星魂会获得同方位的星尘，且数量不会有折损。</p>
+                            <img src="img/x3.jpg" alt=""></li>
+                        <li>
+                            <h3>区域属性</h3>
+                            <p>每个区域装备不同类型的星魂可以激活的属性奖励皆不相同；绛紫图与墨蓝图区域激活属性类型相同，但数值不同。</p>
+                            <img src="img/121.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="tab_cont clearfix">
+                    <ul>
+                        <li>
+                            <h3>玩法介绍</h3>
+                            <p>人物≥130级，可对装备进行洗炼。只有身上的装备可进行洗炼，洗炼后装备即绑定； 消耗洗练符可对装备在身上的装备进行洗炼，洗炼将激活装备额外的1-5条洗炼属性，根据使用的洗练符不同，每次洗炼可随机出的属性条数最低值和属性的下限有所不同； 同一个装备同一种洗炼效果最多出现3次。</p>
+                            <img src="img/z1.jpg" alt=""></li>
+                        <li>
+                            <h3>洗练道具</h3>
+                            <p>装备洗练1次固定消耗1个洗练符，洗练符共分为3个品质，洗练符品质类型如下图； 洗练符获取途径：灵境寻宝获得。</p>
+                            <img src="img/z2.jpg" alt=""></li>
+                        <li>
+                            <h3>装备熔炼</h3>
+                            <p>耗熔炼符可对装备进行熔炼操作，将装备现有的任意一条洗炼属性替换为熔炼符上的固有属性条； 在洗炼界面选择熔炼符，点击“洗炼”，选择现有的洗炼属性点击“替换”，即可。</p>
+                            <img src="img/z3.jpg" alt=""></li>
+                        <li>
+                            <h3>洗练效果</h3>
+                            <p>洗练可随机获得洗练属性和天命被动技能； 共有6种被动技能：追命、施危、惊鸿、信步、凝神、留影。每种被动技能有2个效果，分别在适用于不同的部位。</p>
+                            <img src="img/z4.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#">游戏资料站</a>
+        </div>
+        <!--我要变美-->
+        <div class="main4" id="main4">
+            <h3><img src="img/tit3-2.png" alt=""></h3>
+            <!--导航栏-->
+            <div class="nav_wybm" id="nav_wybm">
+                <a href="">打造你的美</a>
+                <a href="">古风时装</a>
+                <a href="">萌宠来袭</a>
+                <a href="">坐骑</a>
+                <a href="">结交好友</a>
+                <a href="">唯美场景</a>
+            </div>
+            <div class="main4_cont clearfix" style="display:block;">
+                <ul>
+                    <li>
+                        <h3>进入游戏</h3>
+                        <p>进入游戏需要选择你要进行修仙的职业，这决定这你之后的游戏方向，不会看属性也没关系，看哪个职业展示技能可以打动你，那就是它了！</p>
+                        <img src="img/2_clip_image002.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>选择职业</h3>
+                        <p>接下来，为自己起一个美出新高度的名字吧，如果没有想法也没关系，点击随机，会出现很多很多酷到没朋友的名字。</p>
+                        <img src="img/2_clip_image004.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>创建角色</h3>
+                        <p>接下来就是如何更美的装扮自己，12种发型、10种脸型、9种服装……任你选！这个选定就是你出生的样子了，当然你也不用特别纠结，这个后期是可以进行改变的！美美哒你就这么“出生”了！</p>
+                        <img src="img/2_clip_image006.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="main4_cont clearfix">
+                <ul>
+                    <li>
+                        <h3>时装概述</h3>
+                        <p>这里一定要强调一下，时装唯美，分为“时装”“装备”两种，打开“衣橱”——时装界面，可随意搭配更换。时装有时装的华丽，如果想展示个性的装备，只需在时装界面，点击右侧已装备时装下对应部位的“小眼睛”符号即可，同理，发型、脸型、武器均可如此操作决定显示的外观哦。</p>
+                        <img src="img/2_clip_image008.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>时装染色</h3>
+                        <p>想要突出个性，或者喜欢DIY，那么可以打开时装染色界面，对自己喜欢的时装进行染色处理，大千世界唯你不同。</p>
+                        <img src="img/2_clip_image010.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>时装传记</h3>
+                        <p>喜欢唯美古风小说的你会发现，每一件唯美时装均有一段动人的故事，时装界面中，点击进入“时装传记”玩法。收集指定的永久时装+永久头发即可激活对应的“时装传记”，“时装传记”激活后将永久生效，不会随着替换时装穿着而消失。</p>
+                        <img src="img/2_clip_image012.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="main4_cont clearfix">
+                <ul>
+                    <li>
+                        <h3>宠物概述</h3>
+                        <p>有一种相守相伴的萌宠小伙伴是一件必要的事情，独闯天下，它的陪伴就变得相当重要了。上百种灵宠供你选择，它们有的憨态可掬，有的活泼灵动，不论是九天灵物或是飞禽走兽都将成为长伴你左右的宠物。更有如花魅公主这种轻翼如蝉，美丽可爱的人间精灵也列入宠物大军之中，分布在世界的各个角落，只要合理利用捕兽夹，耐心加细</p>
+                        <img src="img/2_clip_image014.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="main4_cont clearfix">
+                <ul>
+                    <li>
+                        <h3>坐骑概述</h3>
+                        <p>坐骑、飞剑、法宝是修仙之旅中不可缺少的伴侣，为了满足玩家的不同个性需求，任何法宝、飞剑均可化身坐骑，不仅提升战斗属性，更可任意御空飞行，览尽天下美景不再是梦想。法宝的获得相对简单，只需完成“天帝宝库”任务即可收获法宝，而游戏中充满更多隐藏任务，不经意间完成任务，可收获更多法宝，收获众人艳羡目光哦！此</p>
+                        <img src="img/2_clip_image016.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>坐骑展示</h3>
+                        <p></p>
+                        <img src="img/2_clip_image018.jpg" alt="">
+                    </li>
+                    <li>
+                </ul>
+            </div>
+            <div class="main4_cont clearfix">
+                <ul>
+                    <li>
+                        <h3>好友概述</h3>
+                        <p>初入游戏，对一切都是那么的陌生，不要紧，看到行色匆匆的人了吗？过去点住他，右键点击他的头像，即会看到一个菜单，无论是加好友、邀请组队、聊天，甚至进行一系列互动都是可以的，这样以后修仙之路就有了相伴之人，说不准还可以执手到天涯呢！</p>
+                        <img src="img/2_clip_image020.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>好友密语</h3>
+                        <p>有了好友，接下来就是如何交谈拉近距离，打开好友界面，通过选择通讯录点击想聊天的好友，即可在右边的对话框中尽情畅谈！</p>
+                    </li>
+                    <li>
+                        <h3>个人空间</h3>
+                        <p>除此之外，还可以在游戏中享受丰富便捷的交互体验。可以上传自己的专属头像和个性签名，寻找与你志同道合的挚交好友，流畅的语音聊天将方便你们畅快沟通</p>
+                        <img src="img/2_clip_image024.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="main4_cont clearfix">
+                <ul>
+                    <li>
+                        <h3>游戏地图</h3>
+                        <p>打开地图，好多好多美丽的地方都想去“旅行”，那么首要任务你要先升级，有了飞剑，便可御空飞行，览尽天下美景。诸多美景可选择每个地图的“飞天仙子”前往该场景，当你等级越来越高，便可在地图中直接点击前行！如果再来个多人坐骑，邀请你的那个TA，从此仗剑走天涯！只羡鸳鸯不羡仙！</p>
+                        <img src="img/2_clip_image026.jpg." alt="">
+                    </li>
+                </ul>
+            </div>
+            <a href="#">游戏资料站</a>
+        </div>
+        <!--获取-->
+        <div class="main5" id="main5">
+            <h3><img src="img/tit4.png" alt=""></h3>
+            <div class="nav_bottom" id="nav_bottom">
+                <a href="javascript:;">游戏福利</a>
+                <a href="javascript:;">任务报酬</a>
+            </div>
+            <div class="main5_cont clearfix">
+                <a href="javascript:;" class="p1">等级礼包</a>
+                <a href="javascript:;" class="p2">每日签到</a>
+                <a href="javascript:;" class="p3">在线领奖</a>
+                <a href="javascript:;" class="p4">活跃奖励</a>
+            </div>
+            <div class="main5_cont clearfix" style="display:none;">
+                <a href="javascript:;" class="p5">妖兽突袭</a>
+                <a href="javascript:;" class="p6">破凶咒</a>
+                <a href="javascript:;" class="p7">文曲初试</a>
+                <a href="javascript:;" class="p8">任务翻牌</a>
+            </div>
+            <a href="javascript:;">领取礼包</a>
+        </div>
+        <!--页尾-->
+        <div class="footer">
+            <div class="wrap">
+                <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005060700536" class="beian">经营性网站<br/>
+                    备案信息</a>
+                <div class="company_in">
+                    <ul class="clearfix">
+                        <li><a href="">&nbsp;公司介绍</a></li>
+                        <li><a href="">开发团队</a></li>
+                        <li><a href="">招聘信息</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">法律声明</a></li>
+                        <li><a href="">网站地图</a></li>
+                        <li><a href="">客服中心</a></li>
+                        <li><a href="">完美游戏平台</a></li>
+                    </ul>
+                    <p>&nbsp;京ICP备15025398号&nbsp;&nbsp;&nbsp;&nbsp;《网络文化经营许可证》编号：京网文[2011]0782-287号</p>
+                    <p><a href="http://www.wanmei.com/permit/audio.htm">《网络视听许可证》编号：0110587</a>&nbsp;&nbsp;&nbsp;<span>京公网安备11010502033859号</span></p>
+                    <p>&nbsp;文网游备字〔2016〕Ｍ-RPG 4395号     ISBN 978-7-7979-0076-8</p>
+                    <p>&nbsp;© 2004-2017 &nbsp;Perfect&nbsp; World &nbsp;Co.,&nbsp;Ltd. All&nbsp; rights &nbsp;reserved.完美世界（北京）软件科技发展有限公司版权所有</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+<script>
+$(function  (){
+   function  QH(i,C){
+       $('.fixed-right a').eq(i).click(function () {
+           $('html body').animate({
+               scrollTop:C.offset().top
+           },1000)
+       })
+   }
+   QH(0,$('.main1'));
+   QH(1,$('.main2'));
+   QH(2,$('.main3'));
+   QH(3,$('.main4'));
+   QH(4,$('.main5'));
+})
+
+</script>
